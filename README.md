@@ -15,6 +15,12 @@ HackHub의 기존 한국어 번역에서 어색한 기계번역, 오역, 과도�
 - 설정 탭 `Gameplay / Display / Graphics / Audio`는 영어 표기 유지
 - 메인 메뉴 `계속하기`, 뉴스 버튼 `More` 등 UI 마무리 교정
 
+## 다운로드
+
+### [⬇️ HackHub 비공식 한국어 개선 패치 v1.0.0 다운로드](https://github.com/syhwvd5/HackHub-Korean-Patch/releases/download/v1.0.0/HackHub-Korean-Patch-v1.0.0.zip)
+
+일반 사용자는 위 링크에서 `HackHub-Korean-Patch-v1.0.0.zip`을 바로 다운로드할 수 있습니다.
+
 ## 설치 방법
 
 1. Steam에서 HackHub를 설치하고 **게임을 완전히 종료**합니다.
