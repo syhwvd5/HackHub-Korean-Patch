@@ -1,21 +1,27 @@
-﻿HackHub 비공식 한국어 개선 패치 v1.0.0
+# Changelog
 
-[설치]
-1. 게임을 완전히 종료합니다.
-2. Hackhub\resources 폴더에 아래 두 파일을 넣습니다.
-   - HackHub_Korean_Patch.ps1
-   - Restore_Original.ps1
-3. 해당 폴더에서 PowerShell을 열고 실행합니다.
+## v1.0.0
 
-   powershell -ExecutionPolicy Bypass -File ".\HackHub_Korean_Patch.ps1"
+첫 공개 통합 배포 버전입니다.
 
-4. "패치 완료!"가 나오면 게임을 실행합니다.
+### 번역
 
-[복구]
-powershell -ExecutionPolicy Bypass -File ".\Restore_Original.ps1"
+- 미션 핵심 검색어/명령어 보존 및 설명문 자연화
+- Handbook 명령어 및 Online World 문서 전반 개선
+- 메일 / Kisscord 대화 문맥과 띄어쓰기 개선
+- 게임플레이 의미가 달라진 오역 교정
+- 설정 화면 옵션명과 툴팁 정밀교정
+- 메인 메뉴와 뉴스 UI 마무리 교정
 
-[지원 원본 SHA-256]
-ba5fafafff663ef8f1d8874c50beb2bc94e555e177fc21c5d5b96fb772420d64
+### 게임플레이 호환성
 
-게임 업데이트로 SHA-256이 달라지면 패처가 중단됩니다.
-이 패치는 비공식 사용자 제작 패치이며 원본 게임 파일을 포함하지 않습니다.
+- root / true / false 등 실제 값 원문 유지
+- 명령어, 옵션, 파일명, 도메인, username, 코드 및 placeholder 보존
+- lynx 검색 등 실제 입력이 필요한 키워드의 영어 표기 유지
+
+### 배포
+
+- 기존 여러 단계 패치를 하나의 `HackHub_Korean_Patch.ps1`로 통합
+- 순정 `app.asar` SHA-256 검사 추가
+- 자동 원본 백업 및 복구 스크립트 제공
+- `index.js` 크기 변화 시 ASAR offset / integrity를 자동 재구성

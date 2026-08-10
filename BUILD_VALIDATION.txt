@@ -1,27 +1,11 @@
-# Changelog
-
-## v1.0.0
-
-첫 공개 통합 배포 버전입니다.
-
-### 번역
-
-- 미션 핵심 검색어/명령어 보존 및 설명문 자연화
-- Handbook 명령어 및 Online World 문서 전반 개선
-- 메일 / Kisscord 대화 문맥과 띄어쓰기 개선
-- 게임플레이 의미가 달라진 오역 교정
-- 설정 화면 옵션명과 툴팁 정밀교정
-- 메인 메뉴와 뉴스 UI 마무리 교정
-
-### 게임플레이 호환성
-
-- root / true / false 등 실제 값 원문 유지
-- 명령어, 옵션, 파일명, 도메인, username, 코드 및 placeholder 보존
-- lynx 검색 등 실제 입력이 필요한 키워드의 영어 표기 유지
-
-### 배포
-
-- 기존 여러 단계 패치를 하나의 `HackHub_Korean_Patch.ps1`로 통합
-- 순정 `app.asar` SHA-256 검사 추가
-- 자동 원본 백업 및 복구 스크립트 제공
-- `index.js` 크기 변화 시 ASAR offset / integrity를 자동 재구성
+original_asar_sha256: ba5fafafff663ef8f1d8874c50beb2bc94e555e177fc21c5d5b96fb772420d64
+original_asar_size: 468688937
+fragment_patch_records: 260
+locale_patch_records: 283
+raw_patch_records: 6
+v5_typo_occurrences_in_simulation: 24
+final_index_size: 21481756
+final_index_sha256: db08ff0c0de803e08e5e7405d6d85d0b12b6971703e958950dee275eeee707db
+test_rebuilt_asar_size: 468687681
+test_rebuilt_asar_sha256: f08455bbfa8d0cc7aa325404966c00e263fead244b59f775a26c6fd91638aefc
+node_check: PASS

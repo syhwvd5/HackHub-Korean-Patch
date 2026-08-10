@@ -1,0 +1,33 @@
+name: 번역 오류 제보
+description: 어색한 번역, 오역 또는 게임 진행에 영향을 주는 번역을 제보합니다.
+title: "[번역] "
+labels: ["translation"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: 발생 위치
+      description: 예) Handbook > lynx, Kisscord, Settings > Gameplay, 미션 이름
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: 현재 표시되는 문구
+    validations:
+      required: true
+  - type: textarea
+    id: original
+    attributes:
+      label: 영어 원문 (알고 있는 경우)
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 문제 설명 / 제안 번역
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: 스크린샷
+      description: 이미지를 이곳에 드래그해 첨부할 수 있습니다.

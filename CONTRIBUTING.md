@@ -1,11 +1,13 @@
-original_asar_sha256: ba5fafafff663ef8f1d8874c50beb2bc94e555e177fc21c5d5b96fb772420d64
-original_asar_size: 468688937
-fragment_patch_records: 260
-locale_patch_records: 283
-raw_patch_records: 6
-v5_typo_occurrences_in_simulation: 24
-final_index_size: 21481756
-final_index_sha256: db08ff0c0de803e08e5e7405d6d85d0b12b6971703e958950dee275eeee707db
-test_rebuilt_asar_size: 468687681
-test_rebuilt_asar_sha256: f08455bbfa8d0cc7aa325404966c00e263fead244b59f775a26c6fd91638aefc
-node_check: PASS
+# 기여 및 번역 오류 제보
+
+번역 문제는 GitHub Issues로 제보해 주세요.
+
+가능하면 다음 내용을 포함해 주세요.
+
+1. 발생 위치 (예: Handbook > lynx, Kisscord, 특정 미션, Settings)
+2. 현재 한국어 문구
+3. 영어 원문
+4. 문제점 또는 제안 번역
+5. 스크린샷
+
+게임에서 직접 입력/검색하는 문자열은 번역하지 않는 것을 기본 원칙으로 합니다. 명령어, 옵션, 파일명, 도메인, username, root/true/false, 코드 및 placeholder가 한글로 바뀌어 게임 진행에 영향을 주는 경우 반드시 표시해 주세요.
