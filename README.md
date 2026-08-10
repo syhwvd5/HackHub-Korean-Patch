@@ -17,9 +17,9 @@ HackHub의 기존 한국어 번역에서 어색한 기계번역, 오역, 과도�
 
 ## 다운로드
 
-### [⬇️ HackHub 비공식 한국어 개선 패치 v1.0.0 다운로드](https://github.com/syhwvd5/HackHub-Korean-Patch/releases/download/v1.0.0/HackHub-Korean-Patch-v1.0.0.zip)
+### [⬇️ HackHub 비공식 한국어 개선 패치 v1.0.1 다운로드](https://github.com/syhwvd5/HackHub-Korean-Patch/releases/download/v1.0.1/HackHub-Korean-Patch-v1.0.1.zip)
 
-일반 사용자는 위 링크에서 `HackHub-Korean-Patch-v1.0.0.zip`을 바로 다운로드할 수 있습니다.
+일반 사용자는 위 링크에서 `HackHub-Korean-Patch-v1.0.1.zip`을 바로 다운로드할 수 있습니다.
 
 ## 설치 방법
 
