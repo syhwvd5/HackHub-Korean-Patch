@@ -5,6 +5,12 @@ HackHub의 기존 한국어 번역에서 어색한 기계번역, 오역, 과도�
 > **현재 배포 버전:** v1.0.3  
 > **지원 원본 `app.asar` SHA-256:** `ba5fafafff663ef8f1d8874c50beb2bc94e555e177fc21c5d5b96fb772420d64`
 
+## 다운로드
+
+### [⬇️ HackHub 비공식 한국어 개선 패치 v1.0.3 다운로드](https://github.com/syhwvd5/HackHub-Korean-Patch/releases/download/v1.0.3/HackHub-Korean-Patch-v1.0.3.zip)
+
+일반 사용자는 위 링크에서 `HackHub-Korean-Patch-v1.0.3.zip`을 바로 다운로드할 수 있습니다.
+
 ## 주요 개선 내용
 
 - 미션 설명은 자연스러운 한국어로 번역하면서 실제 검색어/명령어는 영어 원문 유지
@@ -14,12 +20,6 @@ HackHub의 기존 한국어 번역에서 어색한 기계번역, 오역, 과도�
 - 설정 화면 및 마우스 오버 툴팁 교정
 - 설정 탭 `Gameplay / Display / Graphics / Audio`는 영어 표기 유지
 - 메인 메뉴 `계속하기`, 뉴스 버튼 `More` 등 UI 마무리 교정
-
-## 다운로드
-
-### [⬇️ HackHub 비공식 한국어 개선 패치 v1.0.3 다운로드](https://github.com/syhwvd5/HackHub-Korean-Patch/releases/download/v1.0.3/HackHub-Korean-Patch-v1.0.3.zip)
-
-일반 사용자는 위 링크에서 `HackHub-Korean-Patch-v1.0.3.zip`을 바로 다운로드할 수 있습니다.
 
 ## 설치 방법
 
