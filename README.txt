@@ -1,18 +1,24 @@
-﻿HackHub 비공식 한국어 개선 패치 v1.0.0
+HackHub 비공식 한국어 개선 패치 v1.0.3
 
 [설치]
 1. 게임을 완전히 종료합니다.
-2. Hackhub\resources 폴더에 아래 두 파일을 넣습니다.
-   - HackHub_Korean_Patch.ps1
-   - Restore_Original.ps1
+2. Hackhub\resources 폴더에 아래 파일을 넣습니다.
+   - HackHub_Korean_Patch_v1.0.3.ps1
+
 3. 해당 폴더에서 PowerShell을 열고 실행합니다.
 
-   powershell -ExecutionPolicy Bypass -File ".\HackHub_Korean_Patch.ps1"
+   powershell -ExecutionPolicy Bypass -File ".\HackHub_Korean_Patch_v1.0.3.ps1"
 
-4. "패치 완료!"가 나오면 게임을 실행합니다.
+4.  Patch completed and verified.
+    Stage 1 patches: 282
+    Stage 2 audit patches: 52
+    Final index SHA256: c7de0715ab8ec0256d92ee37b1d7c7ad9f56e11b96577085ebbff357670daf05
+    Final app.asar SHA256: 8ee9b4c3578fbb1ae5d84bcec901ac334fd97884c2ea4c0e921a7b1cf8c7e42b
+    가 나오면 게임을 실행합니다.
 
 [복구]
-powershell -ExecutionPolicy Bypass -File ".\Restore_Original.ps1"
+
+스팀에서 무결성 검사 하시면 됩니다.
 
 [지원 원본 SHA-256]
 ba5fafafff663ef8f1d8874c50beb2bc94e555e177fc21c5d5b96fb772420d64
