@@ -91,9 +91,8 @@ Issues에서 다음 정보를 함께 남겨 주세요.
 일반 사용자는 GitHub의 **Releases**에서 최신 ZIP을 받는 것을 권장합니다.
 
 ```text
-HackHub-Korean-Patch-v1.0.0.zip
+HackHub-Korean-Patch-v1.0.2.zip
 ├─ HackHub_Korean_Patch.ps1
-├─ Restore_Original.ps1
 └─ README.txt
 ```
 
