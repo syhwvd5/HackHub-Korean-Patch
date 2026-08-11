@@ -2,7 +2,7 @@
 
 HackHub의 기존 한국어 번역에서 어색한 기계번역, 오역, 과도한 띄어쓰기와 게임 진행에 영향을 주는 번역을 개선하는 비공식 사용자 제작 패치입니다.
 
-> **현재 배포 버전:** v1.0.2  
+> **현재 배포 버전:** v1.0.3  
 > **지원 원본 `app.asar` SHA-256:** `ba5fafafff663ef8f1d8874c50beb2bc94e555e177fc21c5d5b96fb772420d64`
 
 ## 주요 개선 내용
@@ -17,9 +17,9 @@ HackHub의 기존 한국어 번역에서 어색한 기계번역, 오역, 과도�
 
 ## 다운로드
 
-### [⬇️ HackHub 비공식 한국어 개선 패치 v1.0.2 다운로드](https://github.com/syhwvd5/HackHub-Korean-Patch/releases/download/v1.0.2/HackHub-Korean-Patch-v1.0.2.zip)
+### [⬇️ HackHub 비공식 한국어 개선 패치 v1.0.3 다운로드](https://github.com/syhwvd5/HackHub-Korean-Patch/releases/download/v1.0.2/HackHub-Korean-Patch-v1.0.2.zip)
 
-일반 사용자는 위 링크에서 `HackHub-Korean-Patch-v1.0.2.zip`을 바로 다운로드할 수 있습니다.
+일반 사용자는 위 링크에서 `HackHub-Korean-Patch-v1.0.3.zip`을 바로 다운로드할 수 있습니다.
 
 ## 설치 방법
 
@@ -31,11 +31,11 @@ HackHub의 기존 한국어 번역에서 어색한 기계번역, 오역, 과도�
    Hackhub\resources
    ```
 
-4. Release에서 받은 `HackHub_Korean_Patch.ps1`을 `app.asar`와 같은 폴더에 넣습니다.
+4. Release에서 받은 `HackHub_Korean_Patch_v1.0.3.ps1`을 `app.asar`와 같은 폴더에 넣습니다.
 5. 해당 폴더에서 PowerShell을 열고 아래 명령을 실행합니다.
 
    ```powershell
-   powershell -ExecutionPolicy Bypass -File ".\HackHub_Korean_Patch.ps1"
+   powershell -ExecutionPolicy Bypass -File ".\HackHub_Korean_Patch_v1.0.3.ps1"
    ```
 
 6. `패치 완료!`가 표시되면 게임을 실행합니다.
@@ -44,13 +44,7 @@ HackHub의 기존 한국어 번역에서 어색한 기계번역, 오역, 과도�
 
 ## 원상복구
 
-같은 폴더에서 다음을 실행합니다.
-
-```powershell
-powershell -ExecutionPolicy Bypass -File ".\Restore_Original.ps1"
-```
-
-또는 Steam의 **설치된 파일 → 게임 파일 무결성 검사**를 이용할 수 있습니다.
+Steam의 **설치된 파일 → 게임 파일 무결성 검사**를 이용할 수 있습니다.
 
 ## 번역 원칙
 
@@ -91,8 +85,8 @@ Issues에서 다음 정보를 함께 남겨 주세요.
 일반 사용자는 GitHub의 **Releases**에서 최신 ZIP을 받는 것을 권장합니다.
 
 ```text
-HackHub-Korean-Patch-v1.0.2.zip
-├─ HackHub_Korean_Patch.ps1
+HackHub-Korean-Patch-v1.0.3.zip
+├─ HackHub_Korean_Patch_v1.0.3.ps1
 └─ README.txt
 ```
 
