@@ -2,11 +2,11 @@
 
 HackHub의 기존 한국어 번역에서 어색한 기계번역, 오역, 과도한 띄어쓰기와 게임 진행에 영향을 주는 번역을 개선하는 비공식 사용자 제작 패치입니다.
 
-> **현재 배포 버전:** v1.0.5  
+> **현재 배포 버전:** v0.1.0  
 
 ## 다운로드
 
-### [⬇️ HackHub 비공식 한국어 개선 패치 v1.0.5 다운로드](https://github.com/syhwvd5/HackHub-Korean-Patch/releases/download/v1.0.5/kr-patch-mod.zip)
+### [⬇️ HackHub 비공식 한국어 개선 패치 v0.1.0 다운로드](https://github.com/syhwvd5/HackHub-Korean-Patch/releases/download/v0.1.0/kr-patch-mod.zip)
 
 일반 사용자는 위 링크에서 `kr-patch-mod.zip`을 바로 다운로드할 수 있습니다.
 
