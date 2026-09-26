@@ -2,14 +2,13 @@
 
 HackHub의 기존 한국어 번역에서 어색한 기계번역, 오역, 과도한 띄어쓰기와 게임 진행에 영향을 주는 번역을 개선하는 비공식 사용자 제작 패치입니다.
 
-> **현재 배포 버전:** v1.0.4  
-> **지원 원본 `app.asar` SHA-256:** `72BF3AB6FE149F776B154DCAA17B5B4B8E8773A92B62B1C51C0374B858F865CE`
+> **현재 배포 버전:** v1.0.5  
 
 ## 다운로드
 
-### [⬇️ HackHub 비공식 한국어 개선 패치 v1.0.4 다운로드](https://github.com/syhwvd5/HackHub-Korean-Patch/releases/download/1.0.4/HackHub-Korean-Patch-v1.0.4.zip)
+### [⬇️ HackHub 비공식 한국어 개선 패치 v1.0.5 다운로드](https://github.com/syhwvd5/HackHub-Korean-Patch/releases/download/v1.0.5/kr-patch-mod.zip)
 
-일반 사용자는 위 링크에서 `HackHub-Korean-Patch-v1.0.4.zip`을 바로 다운로드할 수 있습니다.
+일반 사용자는 위 링크에서 `kr-patch-mod.zip`을 바로 다운로드할 수 있습니다.
 
 ## 주요 개선 내용
 
@@ -28,23 +27,11 @@ HackHub의 기존 한국어 번역에서 어색한 기계번역, 오역, 과도�
 3. 다음 폴더로 이동합니다.
 
    ```text
-   Hackhub\resources
+   Hackhub\mods
    ```
 
-4. Release에서 받은 `HackHub_Korean_Patch_HH1.3.1.ps1`을 `app.asar`와 같은 폴더에 넣습니다.
-5. 해당 폴더에서 PowerShell을 열고 아래 명령을 실행합니다.
-
-   ```powershell
-   powershell -ExecutionPolicy Bypass -File ".\HackHub_Korean_Patch_HH1.3.1.ps1"
-   ```
-
-6. `패치 완료!`가 표시되면 게임을 실행합니다.
-
-패처는 실행 전에 순정 `app.asar`의 SHA-256을 검사하며, 호환되는 파일일 때만 진행합니다. 원본은 `app.asar.original.bak`으로 자동 백업됩니다.
-
-## 원상복구
-
-Steam의 **설치된 파일 → 게임 파일 무결성 검사**를 이용할 수 있습니다.
+4. Release에서 받은 `kr-patch-mod.zip`을 압축해제 후 `hh-ko-runtime`를 mods 폴더에 넣습니다
+5. 게임을 실행합니다.
 
 ## 번역 원칙
 
@@ -58,15 +45,6 @@ Steam의 **설치된 파일 → 게임 파일 무결성 검사**를 이용할 �
 - IP 주소, 도메인, username, 파일명
 - 코드, 함수명, placeholder
 - 미션에서 그대로 검색해야 하는 핵심 키워드
-
-## 호환성 / 주의사항
-
-- 이 패치는 **특정 HackHub 빌드의 순정 `app.asar`**만 지원합니다.
-- 게임 업데이트 후 SHA-256이 달라지면 패처가 자동으로 중단됩니다. 새 버전 호환 패치가 나올 때까지 적용하지 마세요.
-- 이미 수정된 `app.asar`에는 통합 패처를 적용하지 마세요. Steam 무결성 검사 후 적용하는 것이 가장 안전합니다.
-- Steam 무결성 검사를 실행하면 한국어 개선 패치가 제거될 수 있습니다.
-- 이 프로젝트는 비공식 팬 프로젝트이며 HackHub 개발사와 관련이 없습니다.
-- 이 저장소에는 HackHub의 원본 `app.asar` 또는 원본 게임 파일을 포함하지 않습니다.
 
 ## 번역 오류 제보
 
@@ -85,9 +63,9 @@ Issues에서 다음 정보를 함께 남겨 주세요.
 일반 사용자는 GitHub의 **Releases**에서 최신 ZIP을 받는 것을 권장합니다.
 
 ```text
-HackHub-Korean-Patch-v1.0.4.zip
-├─ HackHub_Korean_Patch_HH1.3.1.ps1
-└─ README.txt
+kr-patch-mod.zip
+├─ manifest.json
+└─ mod.js
 ```
 
 ## 저작권 안내
